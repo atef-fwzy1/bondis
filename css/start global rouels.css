@@ -1,0 +1,51 @@
+/* start global rouels */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-color:#2196f3;
+    --main-color-alt:#1787e0;
+    --main-transition:0.4s;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+   margin: auto;
+}
+/* small*/
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+/* meduim */
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* end global rouels */
